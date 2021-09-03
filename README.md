@@ -2,4 +2,4 @@
 
 Upcoming.
 
-Viméo: https://vimeo.com/manage/videos/593262193
+Viméo: https://vimeo.com/593262193
