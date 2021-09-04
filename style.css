@@ -1,0 +1,105 @@
+html{
+scrollbar-color: #a5ff00 #1d0095 ;
+scroll-behavior: smooth;}
+
+#shaders{
+min-height: 100vh;
+background-size: 20px 20px;
+background-image:  repeating-linear-gradient(to right, #886bfe, #886bfe 1px, transparent 1px, transparent);
+}
+
+body{
+z-index: -1;
+display: flex;
+flex-direction:column;
+background:linear-gradient(34deg, #fff, #96ff00,#fff,#a5ff00,#fff,#1d0095,#fff);
+
+animation: 180s infinite alternate slidein;
+top: 0;
+left:0;
+width: 100%;
+min-height: 100%;
+margin: 0;
+padding:0;
+}
+
+@keyframes slidein {
+ from {
+ 	background-size: 500% 200%;}
+ 	
+ 	50%{
+ 		background-size: 200% 500%;}
+ 		
+ to{
+ background-size:500% 200%;}
+
+}
+
+#container{
+opacity: 1.0;
+margin:0;
+padding:0;
+display:flex;
+flex-direction: row;
+justify-content: center;
+}
+
+a{
+text-decoration: none;
+font-style: italic;
+color: black;
+
+}
+
+p,ul,li{font-family: math;
+font-size: 24px;}
+
+nav.long{
+
+height: 40vh;}
+
+nav{
+opacity: 1.0;
+background-color: white;
+padding: 15px;
+min-height: 15%;
+max-height: 50vh;
+height:15vh;
+position: sticky;
+top: 25%;
+border-radius: 5px;
+margin: 5% 2% 0 0;
+
+}
+
+
+
+#content{
+width:60%;
+max-width: 450px;
+background-color: white;
+margin: 5% 0 0 0;
+border-radius: 5px;
+padding: 15px;
+text-align: justify;
+
+}
+
+
+header{
+writing-mode: vertical-rl;
+text-orientation: sideways;
+background-color: white;
+margin: 15px 0 0 5%;
+width: 50px;
+border-radius: 5px;
+padding: 15px;
+position: sticky;
+top: 25%;
+max-height: 200px;
+}
+
+@media only all and (max-width: 450px) {
+header{
+display:none}
+}
