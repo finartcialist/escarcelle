@@ -2,7 +2,7 @@
 
 Upcoming.
 
-Beta version: Octobre 2021 - https://finartcialist.com/escarcelle
+Beta version: Novembre 2021 - https://finartcialist.com/escarcelle/beta
 
 Viméo: https://vimeo.com/593262193
 
