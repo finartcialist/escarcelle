@@ -35,6 +35,10 @@ padding:0;
 
 }
 
+h3 {
+font-size: 24px;
+}
+
 #container{
 opacity: 1.0;
 margin:0;
@@ -58,7 +62,7 @@ font-size: 24px;}
 
 nav.long{
 
-height: 40vh;}
+height: 15%;}
 
 nav{
 opacity: 1.0;
@@ -109,3 +113,12 @@ display:none}
 .sthrough {
 
     text-decoration:line-through}
+    
+.descsouvenir {
+    
+    font-weight: bold;
+}
+
+.idsouvenir{
+    font-weight: bold;
+}
