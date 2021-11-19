@@ -22,7 +22,7 @@ for root, subFolders, files in os.walk("./fr/blog/posts/"):
     path = os.path.basename(root)
     print(path)
     for f in files:
-        if f != "atom_fr.xml":
+        if f != "atom_fr.xml" and f != "0.html":
             if len(path) > 0:
                 path_to_html = 'fr/blog/posts/' + path + '/' + f
             else:
@@ -61,7 +61,7 @@ for root, subFolders, files in os.walk("./en/blog/posts/"):
     path = os.path.basename(root)
 
     for f in files:
-        if f != "atom_en.xml":
+        if f != "atom_en.xml" and f != "0.html":
             if len(path) > 0:
                 path_to_html = 'en/blog/posts/' + path + '/' + f
             else:
