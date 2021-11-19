@@ -103,6 +103,7 @@ padding: 15px;
 position: sticky;
 top: 25%;
 max-height: 200px;
+    box-shadow: 8px 8px #886bfe;
 }
 
 @media only all and (max-width: 450px) {
@@ -122,3 +123,8 @@ display:none}
 .idsouvenir{
     font-weight: bold;
 }
+
+img{
+    width: 95%;
+    box-shadow: 8px 8px #886bfe;
+    }
