@@ -52,7 +52,10 @@ a{
 text-decoration: none;
 font-style: italic;
 color: black;
+}
 
+.importantlink{
+font-weight: 800;
 }
 
 
